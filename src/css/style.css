@@ -1,0 +1,13 @@
+.jumbotron {
+    margin-bottom: 0;
+    background-color: white;
+}
+ 
+#result-section {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 25px;
+}

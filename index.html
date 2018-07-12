@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Movie App</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="src/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="jumbotron">
+  <div class="container text-center">
+    <h1>Movie APP</h1>      
+    <form class="form-inline" id="movie-form">
+        <input type="text" class="form-control" size="50" id="mname" placeholder="Enter Movie Name..">
+        <button type="button" id="search" class="btn btn-success">Search</button>
+    </form>
+  </div>
+</div>
+
+<div class="container" id="result-section">
+    <div class="row text-center text-lg-left">
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
+          </a>
+        </div>
+      </div>
+</div>
+
+<footer class="container-fluid text-center">
+  <p>Copyright Naincy</p>  
+</footer>
+<script src="dist/bundle.js"></script>
+<!-- <script src="src/js/app.js"></script> -->
+</body>
+</html>
