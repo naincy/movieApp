@@ -12,23 +12,18 @@
 <body>
 
 <div class="jumbotron">
+    <img src="assets/logo.png" class="header-logo image-align">
   <div class="container text-center">
-    <h1>Movie APP</h1>      
-    <form class="form-inline" id="movie-form">
+      <div class="form-container">
         <input type="text" class="form-control" size="50" id="mname" placeholder="Enter Movie Name..">
         <button type="button" id="search" class="btn btn-success">Search</button>
-    </form>
+      </div>
   </div>
 </div>
 
-<div class="container" id="result-section">
-    <div class="row text-center text-lg-left">
-        <div class="col-lg-3 col-md-4 col-xs-6">
-          <a href="#" class="d-block mb-4 h-100">
-            <img class="img-fluid img-thumbnail" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-      </div>
+<div class="container" >
+    <img src="assets/loader.gif" class="image-align" id="loader"/>
+    <div class="row" id="result-section"></div>            
 </div>
 
 <footer class="container-fluid text-center">

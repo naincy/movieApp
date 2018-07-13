@@ -2,12 +2,47 @@
     margin-bottom: 0;
     background-color: white;
 }
- 
+
+.header-logo {
+    height: 110px;
+    width: 120px;
+}
+
+.image-align {
+    margin-bottom: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
 #result-section {
     margin-bottom: 20px;
 }
 
+#result-section h3 {
+    font-size: 20px;
+}
+#result-section h3 span {
+    font-size: 14px;
+}
+
+#result-section .movie-list {
+    width: 190px !important;
+    margin: 10px;
+}
+.form-container {
+    display: inline-flex;
+}
+.details {
+    margin-left: 20px;
+}
+.banner {
+    width: 30%;
+}
 footer {
     background-color: #f2f2f2;
     padding: 25px;
+    margin-top: 20px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
